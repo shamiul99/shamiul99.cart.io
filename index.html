@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="full_width">
+        <div class="container">
+            <div class="row">
+                <div class="feature-img">
+                    <img src="images/iPhone11.png" alt="iPhone 11 128GB black">
+                    <h4 class="title">iPhone 11 128GB black</h4>
+                </div>
+                <div class="pricing">
+                    <div class="button-area">
+                        <button type="button" class="minusBtn"><i class="fa-solid fa-minus"></i></button>
+                        <input type="text" value="1">
+                        <button class="plusBtn" type="button"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="pricePart">
+                        <h4 class="price">$ <span class="latest_price">1219</span></h4>
+                    </div>
+                    <div class="removeItem">
+                        <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="feature-img">
+                    <img src="images/Apple-iPhone-11-PNG-File.png" alt="iPhone 11 128GB black">
+                    <h4 class="title">iPhone Cillikon Case</h4>
+                </div>
+                <div class="pricing">
+                    <div class="button-area">
+                        <button type="button" class="minusSubButton"><i class="fa-solid fa-minus"></i></button>
+                        <input type="text" value="1">
+                        <button type="button" class="subButton"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="pricePart">
+                        <h4 class="price">$ <span class="subTotalPrice">59</span></h4>
+                    </div>
+                    <div class="removeItem">
+                        <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="checkout">
+                    <div class="sub-total">
+                        <p>sub total:</p>
+                        <p>$ <span class="subTotal">1278</span></p>
+                    </div>
+                    <hr>
+                    <div class="tax">
+                        <p>tax:</p>
+                        <p>$ <span>0</span></p>
+                    </div>
+                    <hr>
+                    <div class="total">
+                        <p>total:</p>
+                        <p>$ <span class="totalPrice">1278</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-btn">
+                <button type="button" class="checkOut">Checkout</button>
+            </div>
+        </div>
+    </section>
+    <script src="program.js"></script>
+</body>
+</html>
